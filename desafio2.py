@@ -5,9 +5,9 @@ def questoes():
 
 	print("=============== Desafio 02 ===============")
 	
-	info = input(f"Você nasceu no dia {dia} de {mes} de {ano} . Correto?")
+	info = input(f"Você nasceu no dia {dia} de {mes} de {ano} . Correto? \n")
 
-	if info == "Sim" or info == "sim":
+	if "sim" in info.lower():
 		quit()
 	else:
 		questoes()
