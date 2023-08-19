@@ -16,6 +16,8 @@ def pedido():
         conta = codigos_e_quantidade["Refrigerante"] * quantidade
     
     print(f"Valor total: {conta}")
+    
+    menu()
 
 def cardapio():
     print("""
